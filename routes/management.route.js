@@ -4,7 +4,9 @@ const managementController = require('../controllers/management.controller');
 
 router.route('/')
     .get(managementController.getManagement)
-    .post()
-
+    .post(managementController.createManagement)
+router.route('/:id')
+    .get()
+    .patch(managementController.updateManagementById)
 
 module.exports = router;
