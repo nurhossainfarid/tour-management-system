@@ -1,4 +1,4 @@
-const { getManagementService, createManagementService, updateManagementByIdService, checkById } = require("../services/management.service")
+const { getManagementService, createManagementService, updateManagementByIdService, checkById, getTourDetailsByIdService, getTourCheapestService, getTourViewService } = require("../services/management.service")
 
 exports.getManagement = async (req, res, next) => {
     try {
@@ -86,6 +86,58 @@ exports.updateManagementById = async (req, res, next) => {
           status: 'Failed',
           message: "Product could not be updated successfully",
           error: error.message
+        })
+    }
+}
+
+exports.getTourDetailsById = async (req, res, next) => {
+    try {
+        const { id } = req.params;
+        const result = await getTourDetailsByIdService(id);
+        res.status(200).json({
+            status: 'Successful',
+            message: 'Tour read successfully',
+            data: result
+        })
+    } catch (error) {
+        res.status(400).json({
+            status: 'Fail',
+            message: "Product could not be updated successfully",
+            error: error.message
+        })
+    }
+}
+
+exports.getTourView = async (req, res, next) => {
+    try {
+        const result = await getTourViewService();
+        res.status(200).json({
+            status: 'Successful',
+            message: 'Successfully get tour filtering by view.',
+            data: result
+        })
+    } catch (error) {
+        res.status(400).json({
+            status: 'Fail',
+            message: 'Could not get tour filtering by view',
+            error: error.message
+        })
+    }
+}
+
+exports.getTourCheapest = async (req, res, next) => {
+    try {
+        const result = await getTourCheapestService();
+        res.status(200).json({
+            status: 'success',
+            message: 'Cheapest tour get are successful',
+            data: result
+        })
+    } catch (error) {
+        res.status(400).json({
+            status: 'Fail',
+            message: 'Cheapest tour get are failed',
+            error: error
         })
     }
 }

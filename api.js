@@ -17,5 +17,6 @@ app.get('/', (req, res, next) => {
 const managementRouter = require('./routes/management.route')
 
 app.use('/api/v1/tours', managementRouter);
+app.use('/api/v1', managementRouter);
 
 module.exports = app;

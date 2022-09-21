@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const managementSchema = mongoose.Schema({
+const tourSchema = mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Please provide your tour management'],
@@ -25,11 +25,15 @@ const managementSchema = mongoose.Schema({
     image: {
         data: Buffer,
         contentType: String,
+    },
+    view: { 
+        type: Number,
+        required: [true, 'Must be provide tour view']
     }
 });
 
 // mongoose middleware
-    managementSchema.pre('save', function (next) {
+    tourSchema.pre('save', function (next) {
   
     // this
     console.log('Before saving data');
@@ -44,6 +48,6 @@ const managementSchema = mongoose.Schema({
     //     console.log(`save data for ${this.name}`);
     // }
 
-const Management = mongoose.model('Management', managementSchema);
+const Tour = mongoose.model('Tour', tourSchema);
 
-module.exports = Management;
+module.exports = Tour;

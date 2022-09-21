@@ -1,27 +1,43 @@
-const Management = require('../model/Management.model');
+const Tour = require('../model/Tour.model');
 
 exports.checkById = async ( id) => {
-    const result = await Management.findById({ _id: id });
+    const result = await Tour.findById({ _id: id });
     return result;
 }
 
 exports.getManagementService = async (filters, queries) => {
-    const result = await Management.find(filters)
+    const result = await Tour.find(filters)
         .skip(queries.skipArea)
         .skip(queries.limit)
         .select(queries.fields)
         .sort(queries.sort);
-    const total = await Management.countDocuments(filters);
+    const total = await Tour.countDocuments(filters);
     const page = Math.ceil(total / queries.limit);
     return { total, page, result};
 }
 
 exports.createManagementService = async (data) => {
-    const result = await Management.create(data);
+    const result = await Tour.create(data);
     return result;
 }
 
 exports.updateManagementByIdService = async (id, data) => {
-    const result = await Management.updateOne({ _id: id }, { $set: data }, { runValidators: true });
+    const result = await Tour.updateOne({ _id: id }, { $set: data }, { runValidators: true });
     return result;
 }
+
+exports.getTourDetailsByIdService = async (id, data) => {
+    const result = await Tour.findByIdAndUpdate({ _id: id},{$inc: {price: 1} });
+    return result;
+}
+
+exports.getTourCheapestService = async () => {
+    const result = await Tour.find({}).sort({ price: 1 }).limit(3);
+    return result;
+}
+
+exports.getTourViewService = async () => {
+    const result = await Tour.find({}).sort({ view: 1 }).limit(3);
+    return result;
+}
+

@@ -4,83 +4,95 @@
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Shanghai, China",
         "price": 177,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Essence of Vietnam South to North",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Kyoto, Japan",
         "price": 118,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Southern Capitals - City Meets Bush",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Beijing, China",
         "price": 168,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Sydney to Brisbane Adventure",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Patagonia, Chile",
         "price": 137,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Tassie's East Coast Highlights",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Berlin, Germany",
         "price": 138,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "East Coast Islands and Rainforest",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Vienna, Austria",
         "price": 131,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Broome to the Bungle Bungles",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Madrid, Spain",
         "price": 80,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Everest Base Camp Trek",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Madrid, Spain",
         "price": 184,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Wonders of the West Coast & Kimberley",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Budapest, Hungary",
         "price": 161,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "One Day Deep Sea Fishing Barbados",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Barbados",
         "price": 195,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Cusco & Salkantay Trekking to Machu Picchu",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Chiang Mai, Thailand",
         "price": 187,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     },
     {
         "name": "Buenos Aires, Calafate, Chalten & Ushuaia",
         "description": "All our Deluxe rooms have big windows to help you take a broad view of the cityscape and nature. We offer bigger bed and every bathroom has bathtub and shower, which brings relaxation to you after a long day.",
         "location": "Bryce Canyon National Park, USA",
         "price": 157,
-        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg"
+        "image": "https://demo2.wpopal.com/zourney/wp-content/uploads/2022/06/tour_9.jpg",
+        "view": 0
     }
 ]
