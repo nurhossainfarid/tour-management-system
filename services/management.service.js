@@ -27,7 +27,7 @@ exports.updateManagementByIdService = async (id, data) => {
 }
 
 exports.getTourDetailsByIdService = async (id, data) => {
-    const result = await Tour.findByIdAndUpdate({ _id: id},{$inc: {price: 1} });
+    const result = await Tour.findByIdAndUpdate({ _id: id} );
     return result;
 }
 
